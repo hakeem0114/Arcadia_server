@@ -30,6 +30,20 @@ nodemon
 
 stripe
 ```
-  Sever authentication of Stripe UI's requests
+  Sever authentication of requests to client (Stripe UI)
   https://stripe.com/docs/api/authentication?lang=node
+```
+
+## To Run Locally
+```
+  git clone git@github.com:hakeem0114/arcadia_server
+```
+```
+  npm i 
+```
+## Secret Keys
+Create your own keys in a .env file called:
+```
+  PORT: <insert local host PORT>
+  STRIPE_API_KEY: <insert your stripe secret key>
 ```
